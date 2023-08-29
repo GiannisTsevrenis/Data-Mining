@@ -1,8 +1,3 @@
-# Tsevrainhs Iwannhs 2562
-# Dionusiadhs Iwannhs 2965
-# First series of exercises, Assignment 1:
-# Erwthsh 1: A. 3.
-# Erwthsh 1: B.
 import random
 
 
@@ -53,4 +48,4 @@ def sample(file, k):  # assignment 1 subquery A. 3.
 if __name__ == '__main__':
     file_path = 'vocab.nytimes.txt'
     sample(file_path, 3)
-    # weighted_reservoir_sampling(file_path)
+    weighted_reservoir_sampling(file_path)
